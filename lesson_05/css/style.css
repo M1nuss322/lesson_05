@@ -1,0 +1,240 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.header {
+	background-color: #77608d;
+	font-family: Circular Std,sans-serif;
+}
+.header-content {
+	max-width: 1280px;
+	background-color: #7A956B;
+	margin: 0 auto;
+}
+.header-content__title {
+	
+}
+
+.header-content__title-text {
+	text-align: center;
+	font-size: 44px;
+	color: rgba(90, 84, 242, 1);
+
+}
+.main {
+}
+.section {
+	background: #231F8B;
+}
+.section-container {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+.section-row1 {
+	max-width: 1044px;
+	margin-bottom: 70px;
+	
+}
+.section-row1__items {
+
+}
+.row1-item__subtitle {
+	color: #5A54F2;
+font-family: Montserrat,sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.2px;
+margin-bottom: 10px;
+}
+.row1-item__title {
+	color: #FFF;
+font-family: "Circular Std",sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+.row1-item__text {
+	color: #FFF;
+	font-family: "Circular Std",sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 20px; 
+	letter-spacing: 0.2px;
+	max-width: 765px;
+}
+
+/*----------------------*/
+.section-cards {
+	font-size: 0px;
+	max-width: 1049px;
+	height: 360px;
+}
+.section-card.active *{
+	color: #ffffff;
+
+}
+.section-card.active{
+	background-color: #5A54F2;
+	
+}
+
+
+.section-card {
+	display: inline-block;
+	max-width: 230px;
+	min-height: 321px;
+	background-color: #ffffff;
+	padding: 35px 40px;
+	margin-right: 30px;
+	vertical-align: top;
+}
+.section-card.section-card__active{
+	margin-top: 48px;
+}
+
+
+
+.section-card__img {
+	margin-bottom: 20px;
+}
+.section-card__title {
+	color: #252B42;
+	font-family: "Circular Std",sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.5; /* 24/16 */
+	letter-spacing: 0.1px;
+	margin-bottom: 20px;
+}
+
+.section-card__line {
+	width: 50px; 
+	height: 2px;
+	background: #E74040;
+	margin-bottom: 20px;
+}
+
+
+.section-card__text {
+	color: #737373;
+	font-family: Montserrat ,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 142.857% */
+	letter-spacing: 0.2px;
+	
+}
+
+/*----------------*/
+.content {
+	font-size: 0px;
+	background-color: #7A956B;
+	padding-block-start: 40px;
+}
+.content-items {
+	max-width: 1400px;
+	margin: 0 auto;
+	
+
+}
+.content-title {
+	text-align: center;
+	background-color: #794f45;
+	max-width: 400px;
+	margin: 0 auto;
+	font-family: "Circular Std",sans-serif;
+	font-size: 64px;
+	margin-bottom: 40px;
+	
+}
+.content-text {
+	display: inline-block;
+	max-width: 300px;
+	background-color: #77608d;
+	font-size: 22px;
+	padding-inline-start: 30px;
+	padding-inline-end: 70px;
+	margin-right: 45px;
+
+}
+.content-text.content-text__red{
+	color: red;
+	max-height: 500px;
+	overflow: auto;
+	vertical-align: top;
+	
+}
+.content-text.content-text__green{
+	color: green;
+	max-height: 800px;
+	overflow: hidden;
+	vertical-align: top;
+	padding-inline-start: 20px;
+}
+.content-text.content-text__blu{
+	color:blue ;
+	padding-inline-start: 40px;
+	padding-inline-end: 80px;
+	max-height: 900px;
+	overflow: scroll;
+	vertical-align: top;
+}
+.content-text.content-text__violet{
+	color: violet;
+	max-height: 1000px;
+	overflow: visible;
+	padding-block-start: 20px;
+}
+/*-------------*/
+.block {
+	background-color: #77608d;
+}
+.block-items {
+	max-width: 1000px;
+	background-color: #794f45;
+	margin: 0 auto;
+	width: 100%;
+	padding-block-start: 50px;
+
+
+}
+.block-item__title {
+	background-color: #7A956B;
+	width: 100%;
+	font-family: "Circular Std",sans-serif;
+	font-size: 60px;
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-block-end: 40px;
+}
+.block-item__text {
+	color: #40e75f;
+	background-color: #5e0caa;
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	margin: 0 0 0 auto;
+	overflow: auto;
+	margin-block-end: 40px;
+
+	
+}
+.block-item__text.text-red {
+	color: red;
+	background-color: #7A956B;
+	margin: 0 auto;
+	
+
+}
